@@ -23,9 +23,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
-@ExtendWith(SpringExtension.class)
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-class RestExampleApplicationTests {
+class RestExampleApplicationTests extends CucumberSpringConfiguration{
 	@Autowired
 	GetController controller;
 
