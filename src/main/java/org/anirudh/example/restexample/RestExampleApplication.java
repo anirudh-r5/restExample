@@ -8,6 +8,7 @@ import org.springframework.cache.annotation.EnableCaching;
 public class RestExampleApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Webhook working");
 		SpringApplication.run(RestExampleApplication.class, args);
 	}
 
